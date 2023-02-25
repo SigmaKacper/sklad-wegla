@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+
+
+.h1cappy{
+    text-align: center;
+    background-color: rgb(208, 135, 0);
+}
+
+ul{
+    width: auto;
+    text-align: center;
+    margin-top: 8px;
+    background-color: rgb(20, 20, 20);  
+}
+
+li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+a{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 1s;
+
+}
+
+a:hover{
+    color: orange;
+}
+
+.topbarra{
+    color: orange;
+    transition: color 1s;
+}
+
+.topbarra:hover{
+    color: white;
+}
+
+.news{
+    color:white;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.div-text{
+    float: left;
+    width: 70%;
+}
+
+.place-img{
+    float: left;
+    margin-left: 50px;
+}
+
+.text-p{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}

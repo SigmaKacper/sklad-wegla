@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Dane osobiste</legend>
+            Podaj imie :<br>
+            <input type="text" name="imie" placeholder="Kacper"><br>
+            Podaj 2 imie :<br>
+            <input type="text" name="2imie" placeholder="Tomasz"><br>
+            Podaj naziwsko :<br>
+            <input type="text" name="nazwisko" placeholder="Wojtkowski"><br>
+            Imie ojca :<br>
+            <input type="text" name="ojciec" placeholder="Ojciec"><br>
+            Imie matki :<br>
+            <input type="text" name="ojciec" placeholder="Matka"><br>
+            Data urodzenia :<br>
+            <input type="date" name="data"><br>
+            Plec :<br>
+            <input type="radio" name="gender" value="chlop">Chlop<br>
+            <input type="radio" name="gender" value="baba">Baba<br>
+            <input type="email" name="emial" placeholder="Kacperwojtkowski@o2.pl"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Zainteresowania</legend>
+            Jakiej muzyki sluchasz (ulubiona): <select name="muzyka"><br>
+                <option value="">---WYBIERZ ZAWARTOSC---</option>
+                <option value="1">klasyczna</option>
+                <option value="2">pop</option>
+                <option value="3">rockroll</option>
+                <option value="4">jazz</option>
+                <option value="5">techno</option>
+                <option value="6">disco polo</option>
+            </select>
+            <br>Jakiej muzyki sluchasz :<br>
+            <input type="checkbox" name="muzyka[]" value="klasyczna">klasyczna<br>
+            <input type="checkbox" name="muzyka[]" value="pop">pop<br>
+            <input type="checkbox" name="muzyka[]" value="rockroll">rockroll<br>
+            <input type="checkbox" name="muzyka[]" value="jazz">jazz<br>
+            <input type="checkbox" name="muzyka[]" value="techno">techno<br>
+            <input type="checkbox" name="muzyka[]" value="disco polo">disco polo<br>
+
+            Jakie ksiazki czytasz :<br>
+            <input type="checkbox" name="ksiazki[]" value="powiesci">powiesci<br>
+            <input type="checkbox" name="ksiazki[]" value="romanse">romanse<br>
+            <input type="checkbox" name="ksiazki[]" value="dokumentalne">dokumentalne<br>
+            <input type="checkbox" name="ksiazki[]" value="biografie">biografie<br>
+            <input type="checkbox" name="ksiazki[]" value="thillery">thillery<br>
+            <input type="checkbox" name="ksiazki[]" value="przygodowe">przygodowe<br>
+
+            Jakie filmy ogladasz :<br>
+            <input type="checkbox" name="filmy[]" value="hisotoryczne">hisotoryczne<br>
+            <input type="checkbox" name="filmy[]" value="biograficzne">biograficzne<br>
+            <input type="checkbox" name="filmy[]" value="katastroficzne">katastroficzne<br>
+            <input type="checkbox" name="filmy[]" value="horrory">horrory<br>
+            <input type="checkbox" name="filmy[]" value="thillery">thillery<br>
+            <input type="checkbox" name="filmy[]" value="romanse">romanse<br>
+            <input type="checkbox" name="filmy[]" value="przygodowe">przygodowe<br>
+
+            Jaki jest twoj ulubony kolor sposrod tych 4 :<br>
+            <input type="radio" name="color" value="niebieski">niebieski<br>
+            <input type="radio" name="color" value="czerwony">czerwony<br>
+            <input type="radio" name="color" value="zielony">zielony<br>
+            <input type="radio" name="color" value="fioletowy" checked>fioletowy<br>
+            Jaki jest twoj ulubony kolor :<br>
+            <input type="color" name="color">
+        </fieldset>
+        <fieldset>
+            <legend>Panel rejestracji</legend>
+            Podaj emial :<br>
+            <input type="email" name="emial" placeholder="Kacperwojtkowski@o2.pl"><br>
+            Podaj login :<br>
+            <input type="text" name="login" placehorder="1234567890u"><br>
+            Podaj haslo :<br>
+            <input type="password" name="haslo">
+        </fieldset>
+
+        <input type="reset" value="reset">
+        <input type="submit" value="wczytaj">
+    </form>
+</body>
+
+</html>

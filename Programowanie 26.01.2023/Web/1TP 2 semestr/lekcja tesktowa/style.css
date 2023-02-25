@@ -1,0 +1,40 @@
+#tekst{
+    white-space: normal;
+}
+
+p{
+    border: 1px solid red;
+    width: 300px;
+    height: 200px;
+    overflow: auto; /*hidden nie mozna zwinac*/
+}
+
+#olzzdjeciem{
+    list-style-image: url('../../zdjecia/serduszko.png');
+}
+
+/*ol{
+list-style-type:decimal;
+}*/
+
+#liPrzyklad::before{
+    content:"Przyklad ";
+    color: blue;
+}
+
+#drugiOl{
+    list-style-type: none;
+}
+
+#emial::before{
+    content: "\26C4";
+}
+
+#tel::before{
+    content: "\1F355";
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

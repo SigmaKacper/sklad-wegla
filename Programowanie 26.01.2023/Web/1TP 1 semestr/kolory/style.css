@@ -1,0 +1,21 @@
+body{
+    height: 2500px ;
+    background-image: url('/capybara.jpg');
+    background-size: auto 300px; /*cover*/ 
+    background-repeat: no-repeat;
+    background-position: center center; /* right down */
+    background-attachment: fixed;
+    background-clip: content-box;
+    
+}
+
+/*.tlo{
+    height: 600px; 
+    border: solid 2px black;
+    background-image: url('/capybara.jpg');
+    background-size: auto 300px; /*cover*/ 
+    background-repeat: no-repeat;
+    background-position: center center; /* right down */
+
+}
+

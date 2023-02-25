@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularze</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="reklama"></div>
+    <h1 id="naglowek">Fromularze</h1>
+    <nav class="formularze">
+        <p id="kotwica">Kotwice</p>
+        <a href="#logowanie">Logowanie</a>
+        <a href="#rejestracja">Rejestracja</a>
+        <a href="#ankieta">Ankieta</a>
+        <a href="#ocenaFilmu">Ocena Filmu</a>
+
+        </p>
+    </nav>
+
+    <section class="formy">
+        <form action="" method="get" id="logowanie">
+            <fieldset>
+                <legend>Logowanie:</legend>
+                <p>Login</p>
+                <input type="email" name="emial" placeholder="Kacperwojtkowski@o2.pl">
+                <br>
+                <p>Haslo:</p>
+                <input type="password" name="password">
+                <br>
+                <input type="reset" value="reset">
+                <input type="submit" value="wczytaj">
+            </fieldset>
+            <p><a href="#kotwica">Powrot</a></p>
+        </form>
+    </section>
+
+    <section class="formy">
+        <form action="" method="get" id="rejestracja">
+            <fieldset>
+                <legend>Rejestracja uzytkownika</legend>
+                <p>Imie:</p>
+                <input type="text" name="imie">
+
+                <p>Nazwisko:</p>
+                <input type="text" name="imie">
+
+                <p>Wojewodztwo</p>
+                <label for="Wojewodztwo">Wybierz Wojewodztwo:</label>
+                <select name="cars" id="cars" form="carform">
+                    <option value="" selected>--- WYBIERZ ---</option>
+                    <option value="Dolnośląskie">Dolnośląskie</option>
+                    <option value="Kujawsko-Pomorskie">Kujawsko-Pomorskie</option>
+                    <option value="Lubskie">Lubuskie</option>
+                    <option value="Lubelskie">Lubelskie</option>
+                </select>
+                <p><a href="#kotwica">Powrot</a></p>
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>

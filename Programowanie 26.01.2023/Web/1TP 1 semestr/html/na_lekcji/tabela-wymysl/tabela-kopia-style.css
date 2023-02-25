@@ -1,0 +1,14 @@
+body{
+    background-color: coral;
+}
+
+#tabela
+{
+    border-style: solid;
+    border: 1px;  
+}
+
+.lekcja
+{
+    border-width: 50px;
+}

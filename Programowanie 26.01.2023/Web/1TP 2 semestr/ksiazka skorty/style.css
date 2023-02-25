@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+}
+
+h1{
+    padding: 50px;
+    background-color: orange;
+    text-align: center;
+}
+
+p{
+    /* height: 200px;  MAMY TO DOKONCZYC*/ 
+    padding: 20px 50px;
+    background-color: blanchedalmond;
+    text-align: justify;
+    text-indent: 50px;
+    text-align-last: right;
+    line-height: 24px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+p::first-letter{
+    font-size: 1.5em
+}
+
+a{
+    text-decoration: none;
+    text-decoration: underline double 2px red;
+}

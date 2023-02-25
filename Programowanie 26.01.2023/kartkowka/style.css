@@ -1,0 +1,12 @@
+p{
+    color: red;
+    font-size: 12px;
+    text-transform:capitalize;
+    text-align: justify;
+    text-decoration:overline;
+    font-style: italic;
+}
+
+p::first-letter{
+    font-size: 2em;
+}

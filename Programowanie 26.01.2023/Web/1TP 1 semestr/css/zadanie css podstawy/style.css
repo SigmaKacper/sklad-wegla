@@ -1,0 +1,51 @@
+.imie{
+    height: 170px;
+    background-color: aqua;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.div1{
+    border: 5px double blue;
+    height: 150px;
+    width: 250px;
+    background-color: chartreuse;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.div2{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(225, 0, 255);
+    border-left: 10px dotted blue;
+    margin: 10px 10% 25px 25mm;
+}
+
+.div3{
+    height:200px;
+    width: 150px;
+    background-color: darkorange;
+    border-style: solid;
+    border-width: 2px 4px 6px 10px;
+    border-radius: 10px;
+    margin: 10px 20px 10px;
+}
+
+.div4{
+    height: 60px;
+    width: 200px;
+    background-color: deeppink;
+    border-style: double solid dotted dashed;
+    border-width: 10px 2px 3px 6px;
+    border-color: red blue green yellow;
+    border-radius: 20px;
+    margin: 100px;
+    padding: 20px;
+}
+   

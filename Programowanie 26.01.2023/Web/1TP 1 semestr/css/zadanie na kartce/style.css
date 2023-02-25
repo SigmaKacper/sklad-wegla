@@ -1,0 +1,16 @@
+div{
+    height: 150px;
+    box-sizing: border-box;
+
+    padding: 50px 30px 50px;
+    border-style: dotted solid dotted double;
+    border-width: 3px 5px 3px 8px;
+    border-color: blue red blue black; 
+}
+
+footer{
+    height: 150px;
+    margin: 20px;
+    padding: 40px;
+    border: 2px dashed yellow;
+}

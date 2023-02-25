@@ -1,0 +1,62 @@
+body {
+    background-image: url('/orange.jpg');
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+a {
+    padding-right: 10px;
+}
+
+#reklama {
+    height: 100px;
+    background-image: url('/capybara-djpiekarz.png');
+    background-size: auto 100px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+}
+
+#naglowek {
+    height: 50px;
+    margin: 20px;
+    padding: 30px;
+    background-color: rgb(240, 187, 90);
+    text-align: center;
+}
+
+.formularze {
+    /* kotwice */
+    margin: 20px;
+    padding: 20PX;
+    background-color: rgb(255, 222, 161);
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(154, 118, 51);
+}
+
+a:active {
+    color: rgb(0, 0, 0);
+}
+
+.formy {
+    /* wyglad wszystkich formow */
+    background-color: rgb(255, 222, 161);
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 30px;
+}

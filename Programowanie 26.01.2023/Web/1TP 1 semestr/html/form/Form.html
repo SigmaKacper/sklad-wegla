@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="get">
+       <input type="text" name="imie" placeholder="Podaj imie"><br>
+
+       <input type="radio" name="gender" value="samica">samica <br>
+       <input type="radio" name="gender" value="chlop" checked>chlop <br>
+
+       <fieldset>
+            <legend>Zainteresowania</legend>
+            <input type="checkbox" name="zainteresowania[]" value="muzyka">muzyka <br>
+            <input type="checkbox" name="zainteresowania[]" value="film">film <br>
+            <input type="checkbox" name="zainteresowania[]" value="gry">gry <br>
+        </fieldset>
+        <fieldset>
+            <legend>Logowanie</legend>
+            Login :<br>
+            <input type="text" name="login" placeholder="Podaj login"><br>
+            Haslo :<br>
+            <input type="password" name="haslo" placeholder="Podaj haslo"><br>
+        </fieldset>
+            
+       <input type="color" name="kolor" value="kolor"><br>
+       <input type="submit" value="wyslij">
+       <input type="reset" value="Zresetuj"> 
+    </form>
+</body>
+</html>
